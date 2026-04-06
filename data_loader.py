@@ -7,7 +7,7 @@ Loading and initial exploration of the Elephant GPS dataset.
 import pandas as pd
 
 
-DATA_PATH = "/content/drive/MyDrive/Wildlife_Project/Elephant_data.csv"
+DATA_PATH = "African elephants in Etosha National Park (data from Tsalyuk et al. 2018) (5).csv"
 
 
 def load_data(path: str = DATA_PATH) -> pd.DataFrame:
